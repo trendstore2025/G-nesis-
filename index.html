@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gênesis | Hiago Osmário</title>
+  <!-- Link para fontes e ícones do Google -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/genesis.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="header">
+      <img src="img/genesis.png" alt="Logo do Gênesis" height="200px">
+    <!-- Saudações do Cabeçalho -->
+    <h1 class="title">Olá, como vai?</h1>
+    <p class="subtitle">Como posso ajudar você hoje?</p>
+
+    <!-- Lista de sugestões -->
+    <ul class="sugestoes-list">
+      <li class="sugestoes">
+        <h4 class="text">Como ganhar massa muscular?</h4>
+        <span class="icon material-symbols-rounded">draw</span>
+      </li>
+      <li class="sugestoes">
+        <h4 class="text">O que é biomedicina?</h4>
+        <span class="icon material-symbols-rounded">lightbulb</span>
+      </li>
+      <li class="sugestoes">
+        <h4 class="text">Lugares mais bonitos do Brasil</h4>
+        <span class="icon material-symbols-rounded">explore</span>
+      </li>
+      <li class="sugestoes">
+        <h4 class="text">Hiago fez você?</h4>
+        <span class="icon material-symbols-rounded">code</span>
+      </li>
+    </ul>
+  </header>
+
+  <!-- Lista de bate-papo e contêiner -->
+  <div class="chat-list"></div>
+
+  <!-- Área de Digitação -->
+  <div class="typing-area">
+    <form action="#" class="typing-form">
+      <div class="input-wrapper">
+        <input type="text" placeholder="Pergunte ao Gênesis" class="typing-input" required />
+        <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+      </div>
+      <div class="action-buttons">
+        <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
+        <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+      </div>
+    </form>
+    <p class="disclaimer-text">
+      O Gênesis pode exibir informações imprecisas, inclusive sobre pessoas, então verifique suas respostas. Versão: 08.01.25
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
